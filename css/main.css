@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+}
+
+#videos {
+  width: 100%;
+}
+
+#localVideo {
+  max-width: 100%;
+  width: 100%;
+  float:left;
+  border: 1px solid;
+}
+
+#remoteVideo {
+  max-width: 100%;
+  width: 100%;
+  float:left;
+  border: 1px solid;
+  display: none;
+}
+
+.localVideoInChatting {
+  width: 30% !important;
+  position: absolute;
+}
+.remoteVideoInChatting {
+  display: inline-block !important;
+}
