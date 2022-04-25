@@ -22,7 +22,6 @@ let roomId;
 let userType;
 
 let videoSource;
-let camFront;
 let camBack;
 
 function parseParams() {
