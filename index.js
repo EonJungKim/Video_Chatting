@@ -9,8 +9,8 @@ const fs = require('fs');			// SSL 적용을 위하여 File 접근을 위하여 
 
 // SSL 적용 파일(OpenSSL로 생성함)`
 const options = {
-    key: fs.readFileSync('./private.pem'),		// 개인키
-    cert: fs.readFileSync('./public.pem')			// 공개키
+    key: fs.readFileSync('./ssl.mjinfo.co.kr.key'),		// 개인키
+    cert: fs.readFileSync('./ssl.mjinfo.co.kr.crt')			// 공개키
 };
 
 const fileServer = new(nodeStatic.Server)();
